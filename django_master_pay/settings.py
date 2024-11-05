@@ -12,10 +12,10 @@ def default_callback(**kwargs):
 
 
 MASTER_PAY_SETTINGS = {
-    'token': '',
+    'token': 'TEST',
     'callback': default_callback,
-    'default_partner_id': None,
-    'base_url': "https://master-pay.ru/",
+    'default_partner_id': 4,
+    'base_url': 'http://127.0.0.1:5000/',
     'timeout': 30,
     'logger_name': 'django_master_pay'
 }
